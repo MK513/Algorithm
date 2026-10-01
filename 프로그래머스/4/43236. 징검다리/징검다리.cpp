@@ -27,7 +27,7 @@ int solution(int distance, vector<int> rocks, int n) {
     sort(rocks.begin(), rocks.end());
     
     int answer = 0;
-    int l = 0, r = 1000000000, mid;
+    int l = 0, r = distance, mid;
     
     while (l <= r) {
         mid = (l + r) / 2;
